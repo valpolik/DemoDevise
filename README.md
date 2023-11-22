@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+__________________________
+
+
+
+* We also need so start DelayedJob using "rake jobs:work" for background jobs with email sending.
