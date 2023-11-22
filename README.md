@@ -29,14 +29,14 @@ __________________________
 
 Works good with this versions:
 * ruby --version => 2.7.6
-* bundle --version => 2.1.4
+* bundler --version => 2.1.4
 * rails --version => 5.2.8.1
 
 
-We also need so start DelayedJob using "rake jobs:work" for background jobs with email sending.
-* rake jobs:work
-
+Run:
 * rails bundle install
 * rails db:migrate
-* rake jobs:work
 * rails server
+
+We also need to start DelayedJob for background jobs with email sending:
+* run in separated terminal: "rake jobs:work"

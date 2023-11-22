@@ -11,7 +11,7 @@ jQuery ->
   $('form').on 'keyup', '.estimate-password', ->
     $this = $(this)
     estimation = zxcvbn($this.val())
-    crack_time = estimation.crack_time_display
+    crack_time = estimation.crack_times_display.online_no_throttling_10_per_second
 
     switch estimation.score
       when 0 then displayHint.call($this, "very weak", crack_time)

@@ -289,5 +289,5 @@ Devise.setup do |config|
 
 
 
-  config.min_password_score = 0
+  config.min_password_score = 1
 end
