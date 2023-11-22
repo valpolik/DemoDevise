@@ -223,13 +223,13 @@ DEPENDENCIES
   bootstrap-sass (= 3.3.3)
   byebug
   coffee-rails (~> 4.2)
-  delayed_job_active_record
+  delayed_job_active_record (~> 4.1, >= 4.1.8)
   devise (= 4.4.2)
-  devise_zxcvbn
+  devise_zxcvbn (~> 6.0)
   jbuilder (~> 2.5)
-  jquery-rails
-  jquery-turbolinks
-  jquery-ui-rails
+  jquery-rails (~> 4.6)
+  jquery-turbolinks (~> 2.1)
+  jquery-ui-rails (~> 6.0, >= 6.0.1)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.11)
   rails (~> 5.2.8, >= 5.2.8.1)

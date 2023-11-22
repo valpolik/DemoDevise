@@ -27,6 +27,16 @@ Things you may want to cover:
 
 __________________________
 
+Works good with this versions:
+* ruby --version => 2.7.6
+* bundle --version => 2.1.4
+* rails --version => 5.2.8.1
 
 
-* We also need so start DelayedJob using "rake jobs:work" for background jobs with email sending.
+We also need so start DelayedJob using "rake jobs:work" for background jobs with email sending.
+* rake jobs:work
+
+* rails bundle install
+* rails db:migrate
+* rake jobs:work
+* rails server
